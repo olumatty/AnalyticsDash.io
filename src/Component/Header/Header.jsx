@@ -1,6 +1,5 @@
 import React from "react";
 import "./Header.css";
-import filter_icon from "../Assests/Filter.jpg";
 import bell_icon from "../Assests/Group 1.jpg";
 import profile_image from "../Assests/Naruto-730x535.jpeg";
 import { BsFilter } from "react-icons/bs";

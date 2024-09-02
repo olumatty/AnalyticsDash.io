@@ -1,0 +1,93 @@
+.Dashboard_display{
+    display: flex;
+    justify-content: space-between;;
+}
+
+.message-display{
+    display:flex;
+    justify-content: space-between;
+    padding:25px;
+    margin-left:20px;
+    margin-right: 200px;
+}
+/* Message Dashboard*/
+.profile-dashboard img{
+    height:64px;
+    width: 64px;
+    border-radius:50px;
+    object-fit: cover;
+}
+.profile-dashboard {
+    display:flex;
+    flex-direction: row;
+    flex: 1;
+    align-items: center;
+    gap: 16px;
+}
+.message-Dashboard{
+    display:flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    margin-left: 30px;
+    width:675px;
+    height:340px;
+    padding:25px;
+    gap: 18px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.todo-list{
+    margin-right: 100px;
+    background: #FFFFFF;
+    height: 340px;
+    width: 420px;
+}
+.profile-dashboard .Name{
+    font-weight: bold;
+    margin: 0;
+    gap:8px;
+    margin-right: 40px;
+}
+.profile-dashboard .Update{
+    margin: 4px 0;
+    color: #ABAEB7;
+}
+.profile-dashboard .Time{
+    margin:  0;
+    color: #ABAEB7;
+    margin-left: 80px;
+}
+/* Message Dashboard*/
+
+/* To Do Dashboard*/
+.todo-list{
+    display: flex;
+    flex-direction:column;
+    padding:25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    gap: 26px;
+}
+
+.to-do-item{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 8px;
+    margin-left: 16px;
+    gap: 18px;
+   
+}
+.icons{
+    align-items:center;
+    height: 36px;
+    width: 36px;
+    border-radius:50px;
+}
+.to-do-item .icon{
+    color:#2D55B4; 
+    height: 24px;
+    width: 24px;
+    align-items:center;
+    position: absolute;
+    justify-content:center;
+}
