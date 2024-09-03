@@ -47,8 +47,8 @@ const Message = () => {
               <VscArchive className="icon" />
             </div>
             <div className="Text">
-              <p>Choose perfect product idea</p>
-              <p>Jan 18 at 5:00pm</p>
+              <p className="Main">Choose perfect product idea</p>
+              <p className="time">Jan 18 at 5:00pm</p>
             </div>
           </div>
           <div className="to-do-item">
@@ -56,8 +56,8 @@ const Message = () => {
               <VscCalendar className="icon" />
             </div>
             <div className="Text">
-              <p>Attend the meeting</p>
-              <p>Jan 18 at 6:00pm</p>
+              <p className="Main">Attend the meeting</p>
+              <p className="time">Jan 18 at 6:00pm</p>
             </div>
           </div>
           <div className="to-do-item">
@@ -65,8 +65,8 @@ const Message = () => {
               <VscWindow className="icon" />
             </div>
             <div className="Text">
-              <p>Attend launch program</p>
-              <p>Jan 22 at 2:00pm</p>
+              <p className="Main">Attend launch program</p>
+              <p className="time">Jan 22 at 2:00pm</p>
             </div>
           </div>
           <div className="to-do-item">
@@ -74,8 +74,8 @@ const Message = () => {
               <VscFlame className="icon" />
             </div>
             <div className="Text">
-              <p>Sign a board resolution</p>
-              <p>Jan 22 at 7:00pm</p>
+              <p className="Main">Sign a board resolution</p>
+              <p className="time">Jan 22 at 7:00pm</p>
             </div>
           </div>
         </div>

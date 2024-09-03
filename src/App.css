@@ -26,3 +26,34 @@ body{
       'sidebar index index index';
   height: 100vh;
 }
+@media(max-width: 992px){
+  .grid-container{
+    grid-template-column:1fr;
+  }
+  #sidebar{
+    display:none;
+  }
+  .sidebar-title > span{
+    display: inline;
+  }
+  .menu-icon {
+    display: block; /* Make menu icon visible */ /* Position it absolutely within the header */
+    top: 20px; /* Adjust top spacing */
+    right: 20px; /* Adjust right spacing */
+    font-size: 24px; /* Adjust size as needed */
+    color: #2d55b4; /* Adjust color to match design */
+    cursor: pointer; /* Change cursor to pointer for interaction */
+    z-index: 1000; /* Ensure it appears above other content */
+  }
+}
+
+@media (max-width: 768px) {
+  .charts {
+    grid-template-columns: 1fr; /* Single column layout for charts */
+    margin-top: 30px; /* Margin for charts */
+  }
+
+  .menu-icon {
+    font-size: 20px; /* Adjust icon size for smaller screens */
+  }
+}

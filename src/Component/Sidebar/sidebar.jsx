@@ -7,15 +7,15 @@ import { SiGoogleanalytics } from "react-icons/si";
 import { SlDiamond } from "react-icons/sl";
 import './sidebar.css';
 
-const Sidebar = () => {
+const Sidebar = ({openSidebarToggle,Opensidebar}) => {
   return (
-    <aside id="sidebar">
+    <aside id="sidebar" className={openSidebarToggle ? "sidebar-responsive" : " "}>
       <div className="sidebar-title">
         <div className="sidebar-logo">
           <SlDiamond className="icon_header" />
           DIAMOND
         </div>
-        <span className="icon close_icon">X</span>
+        <span className="icon close_icon" onClick={Opensidebar}>X</span>
       </div>
 
       <ul className="sidebar-list">
